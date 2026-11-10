@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card centralizado (Container) */
+.container {
+    background-color: #1e293b;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    max-width: 450px;
+    width: 90%;
+}
+
+/* Título em destaque */
+h1 {
+    color: #38bdf8;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+/* Texto da frase */
+#texto-frase {
+    color: #f8fafc;
+    font-size: 1.1rem;
+    font-style: italic;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Botão em tom coral com efeito hover */
+button {
+    background-color: #fb7185;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #f43f5e;
+}
